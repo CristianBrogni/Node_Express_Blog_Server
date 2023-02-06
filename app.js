@@ -9,8 +9,7 @@ const app = express();
 //connect to mongoDB
 mongoose.set("strictQuery", true);
 
-const dbURI =
-	"mongodb+srv://cristian:cristian@nodetuts.6yjplgl.mongodb.net/node-tuts?retryWrites=true&w=majority";
+const dbURI = "Link to MongoDB ";
 
 mongoose
 	.connect(dbURI)
